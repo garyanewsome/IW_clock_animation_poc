@@ -1,0 +1,29 @@
+.hours {
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  width: 64px;
+  height: 64px;
+  background-color: red;
+  /*transform: rotateZ(36deg);*/
+}
+
+.minutes {
+  position: absolute;
+  top: 64px;
+  left: 192px;
+  width: 64px;
+  height: 64px;
+  background-color: green;
+  /*transform: rotateZ(72deg);*/
+}
+
+.seconds {
+  position: absolute;
+  top: 64px;
+  left: 320px;
+  width: 64px;
+  height: 64px;
+  background-color: blue;
+  /*transform: rotateZ(198deg);*/
+}

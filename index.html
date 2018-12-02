@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Frontend Applicant Test</title>
+
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="dist/app.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="dist/css/app.css">
+
+</head>
+<body ng-app="app" ng-controller="myCtrl" ng-init="initialize()">
+
+  <div class="hours container" ng-style="{'-webkit-transform': 'rotateZ(36deg)'}"></div>
+  <div class="minutes container" ng-style="{'-webkit-transform': 'rotateZ(72deg)'}"></div>
+  <div class="seconds container" ng-style="{'-webkit-transform': 'rotateZ(198deg)'}"></div>
+</body>
+</html>
